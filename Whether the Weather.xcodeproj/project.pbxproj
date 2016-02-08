@@ -13,6 +13,8 @@
 		1B26460E1C5D1EDA00BBC6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B26460C1C5D1EDA00BBC6EC /* Main.storyboard */; };
 		1B2646101C5D1EDA00BBC6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B26460F1C5D1EDA00BBC6EC /* Assets.xcassets */; };
 		1B2646131C5D1EDA00BBC6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2646111C5D1EDA00BBC6EC /* LaunchScreen.storyboard */; };
+		1BAB1E3A1C5D9CA600F450F1 /* sunflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB1E391C5D9CA600F450F1 /* sunflower.jpg */; };
+		1BAB1E3C1C5DA18200F450F1 /* hills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB1E3B1C5DA18200F450F1 /* hills.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1B26460F1C5D1EDA00BBC6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B2646121C5D1EDA00BBC6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B2646141C5D1EDA00BBC6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAB1E391C5D9CA600F450F1 /* sunflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower.jpg; sourceTree = "<group>"; };
+		1BAB1E3B1C5DA18200F450F1 /* hills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hills.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1B2646061C5D1EDA00BBC6EC /* AppDelegate.swift */,
 				1B2646081C5D1EDA00BBC6EC /* FirstViewController.swift */,
 				1B26460A1C5D1EDA00BBC6EC /* SecondViewController.swift */,
+				1BAB1E3B1C5DA18200F450F1 /* hills.jpg */,
+				1BAB1E391C5D9CA600F450F1 /* sunflower.jpg */,
 				1B26460C1C5D1EDA00BBC6EC /* Main.storyboard */,
 				1B26460F1C5D1EDA00BBC6EC /* Assets.xcassets */,
 				1B2646111C5D1EDA00BBC6EC /* LaunchScreen.storyboard */,
@@ -127,8 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B2646131C5D1EDA00BBC6EC /* LaunchScreen.storyboard in Resources */,
+				1BAB1E3A1C5D9CA600F450F1 /* sunflower.jpg in Resources */,
 				1B2646101C5D1EDA00BBC6EC /* Assets.xcassets in Resources */,
 				1B26460E1C5D1EDA00BBC6EC /* Main.storyboard in Resources */,
+				1BAB1E3C1C5DA18200F450F1 /* hills.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				1B2646191C5D1EDA00BBC6EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
